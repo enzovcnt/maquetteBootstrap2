@@ -22,12 +22,12 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="firstname" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstname">
                 </div>
                 <div class="col-6">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <label for="lastname" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastname">
                 </div>
             </div>
             <div class="col-12">
@@ -37,8 +37,58 @@
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
                 </div>
             </div>
+            <div class="col-12">
+                <label for="InputEmail1" class="form-label">Email address</label>
+                <span id="emailoptional" class="form-text">(Optional)</span>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="you@example.com">
+            </div>
+            <div class="col-12">
+                <label for="address" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="address" class="form-label">Last name</label>
+                <span id="addressoptional" class="form-text">(Optional)</span>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or Suite">
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <label for="country" class="form-label">Country</label>
+                    <select class="form-select" id="country" aria-label="Default select example">
+                        <option selected>Choose</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="state" class="form-label">State</label>
+                    <select class="form-select" id="state" aria-label="Default select example">
+                        <option selected>Choose</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="zip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="zip">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckShiping">
+                    <label class="form-check-label" for="flexCheckShiping">
+                        Shipping address is the same as my billing address
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckSave">
+                    <label class="form-check-label" for="flexCheckSave">
+                        Save this information for next time
+                    </label>
+                </div>
 
+
+            </div>
         </div>
+
+
+
         <div class="col-4">
             <div class="col-12 fs-2 text-primary">
                 <span>Your Card</span>
