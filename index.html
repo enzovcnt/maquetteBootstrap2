@@ -17,54 +17,54 @@
     </div>
     <div class="row">
         <div class="col-8">
-            <div class="col-12 fs-2">
+            <div class="col-12 fs-2 mb-3">
                 <span>Billing address</span>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 mt-3">
                     <label for="firstname" class="form-label">First name</label>
                     <input type="text" class="form-control" id="firstname">
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-3">
                     <label for="lastname" class="form-label">Last name</label>
                     <input type="text" class="form-control" id="lastname">
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mt-3">
                 <label class="form-label" for="autoSizingInputGroup">Username</label>
                 <div class="input-group">
                     <div class="input-group-text">@</div>
                     <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 mt-3">
                 <label for="InputEmail1" class="form-label">Email address</label>
                 <span id="emailoptional" class="form-text">(Optional)</span>
                 <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="you@example.com">
             </div>
-            <div class="col-12">
+            <div class="col-12 mt-3">
                 <label for="address" class="form-label">Last name</label>
                 <input type="text" class="form-control" id="address" placeholder="1234 Main St">
             </div>
-            <div class="col-12">
+            <div class="col-12 mt-3">
                 <label for="address" class="form-label">Last name</label>
                 <span id="addressoptional" class="form-text">(Optional)</span>
                 <input type="text" class="form-control" id="address2" placeholder="Apartment or Suite">
             </div>
             <div class="row">
-                <div class="col-5">
+                <div class="col-5 mt-3">
                     <label for="country" class="form-label">Country</label>
                     <select class="form-select" id="country" aria-label="Default select example">
                         <option selected>Choose</option>
                     </select>
                 </div>
-                <div class="col-4">
+                <div class="col-4 mt-3">
                     <label for="state" class="form-label">State</label>
                     <select class="form-select" id="state" aria-label="Default select example">
                         <option selected>Choose</option>
                     </select>
                 </div>
-                <div class="col">
+                <div class="col mt-3">
                     <label for="zip" class="form-label">Zip</label>
                     <input type="text" class="form-control" id="zip">
                 </div>
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <span class="fs-2">Payment</span>
+            <span class="fs-2 ">Payment</span>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="Radios" id="radioCreditCard" value="option1" checked>
                 <label class="form-check-label" for="radioCreditCard">
@@ -105,7 +105,7 @@
                 </label>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-6 mt-3">
                     <label for="namecard" class="form-label">Name on card</label>
                     <input type="text" class="form-control" id="namecard">
                     <div class="col-auto">
@@ -114,11 +114,24 @@
                         </span>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 mt-3">
                     <label for="cardnumber" class="form-label">Credit card number</label>
                     <input type="text" class="form-control" id="cardnumber">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-3 mt-3">
+                    <label for="expiration" class="form-label">Expiration</label>
+                    <input type="text" class="form-control" id="expiration">
+                </div>
+                <div class="col-3 mt-3">
+                    <label for="cvv" class="form-label">CVV</label>
+                    <input type="text" class="form-control" id="cvv">
+                </div>
+            </div>
+            <div class="border mt-4 mb-4"></div>
+            <button type="button" class="btn btn-primary col-12 mt-3">Continue to checkout</button>
+
 
         </div>
 
